@@ -37,12 +37,12 @@ great tool for scientists and seasoned system administrators alike. Warewulf emp
 thousands of compute resources.
 
 ### Architecture
-One of the design tenants of Warewulf is how to scalably administrate many thousands of compute nodes. Generally
-speaking, operating system state introduce a surface for potential discrepancies and version creep between nodes and
+One of the design tenets of Warewulf is how to scalably administrate many thousands of compute nodes. Generally
+speaking, operating system states introduce a surface for potential discrepancies and version creep between nodes and
 thus Warewulf has always gone with the "single system image" approach to clustered operating system management.
 This means that you can have a single management node "image". For the last 20 years, we've been calling this a
 Virtual Node File System (VNFS), but in hindsight, this is a container.
 
 At its core, Warewulf v4 focuses on what has made Warewulf so widely loved: simplicity, ultra scalable, lightweight,
-and an easy to manage solution built for both scientists and seasons system administrators to be able to design a
+and an easy to manage solution built for both scientists and seasoned system administrators to be able to design a
 highly functional yet easy to maintain cluster no matter how big or small or customized it needs to be.
